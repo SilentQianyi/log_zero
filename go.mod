@@ -1,4 +1,4 @@
-module zerolog
+module zeroLog
 
 go 1.21
 
