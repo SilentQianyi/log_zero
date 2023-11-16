@@ -1,4 +1,4 @@
-module zeroLog
+module github.com/SilentQianyi/zeroLog
 
 go 1.21
 
