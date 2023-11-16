@@ -37,7 +37,6 @@ func Init(cfg *Config) error {
 		rotatelogs.WithRotationTime(time.Duration(cfg.RotationTime)*time.Hour), // 日志切割时间间隔，单位：小时
 	)
 	if err != nil {
-		log.Fatal().Err(err).Msg("Failed to create rotatelogs handler")
 		return err
 	}
 
